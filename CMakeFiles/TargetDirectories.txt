@@ -1,0 +1,4 @@
+/home/zlx/peoplecounting/headdetection/CMakeFiles/edit_cache.dir
+/home/zlx/peoplecounting/headdetection/CMakeFiles/rebuild_cache.dir
+/home/zlx/peoplecounting/headdetection/CMakeFiles/vibe_test.dir
+/home/zlx/peoplecounting/headdetection/CMakeFiles/vibe.dir
