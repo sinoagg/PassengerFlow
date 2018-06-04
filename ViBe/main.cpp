@@ -35,17 +35,17 @@ static void saveXYZ(const char* filename, const Mat& mat)
      fclose(fp);
  }
 //void disp2Depth(cv::Mat dispMap, cv::Mat &depthMap, cv::Mat K)
-
+/*
 void disp2Depth(cv::Mat dispMap, cv::Mat &depthMap)
 {
      int type = dispMap.type();
      //intrinsic
-	 /*
+	
      float fx = K.at<float>(0, 0);
      float fy = K.at<float>(1, 1);
      float cx = K.at<float>(0, 2);
      float cy = K.at<float>(1, 2);
-     */
+    
 	 float fx =618.8;
 	 float fy =619.9;
 	 float cx =160.0;
@@ -104,16 +104,16 @@ Mat getHistograph(const Mat grayImage)
     resize(histImage,resizeImage,Size(256,256));  
     return resizeImage;  
 }  
-
+*/
 int main(int argc, char* argv[])
 {
  
    Mat frame, gray,grayL,grayR, FGModelL,FGModelR,FGModel,depthMap;
    Mat depth_src,depth_dst;
-   std::string  intrinsic_filename = "/home/zlx/peoplecounting/stereo_odcd1/intrinsics.yml";
-   std::string  extrinsic_filename = "/home/zlx/peoplecounting/stereo_odcd1/extrinsics.yml";
-   std::string disparity_filename = "/home/zlx/peoplecounting/stereo_odcd1/disparity_filename/";
-   std::string point_cloud_filename = "/home/zlx/peoplecounting/stereo_odcd1/point_cloud.txt";
+   std::string  intrinsic_filename = "/home/zlx/peoplecounting/PassengerFlow/intrinsics.yml";
+   std::string  extrinsic_filename = "/home/zlx/peoplecounting/PassengerFlow/extrinsics.yml";
+   std::string disparity_filename = "/home/zlx/peoplecounting/PassengerFlow/disparity_filename/";
+   std::string point_cloud_filename = "/home/zlx/peoplecounting/PassengerFlow/point_cloud.txt";
    float scale=1.0;
    int blocksize = 7;
    int max_disparity = 96;
