@@ -1,8 +1,0 @@
-
-ViBe CMakeList.txt object detection
-------------------------------------------
-opencam.cpp--- stereo calibration frame 
-
-
-disparitymap depthmap histograph  done, because of the parameters,assertion failed!
-

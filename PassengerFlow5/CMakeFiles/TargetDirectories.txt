@@ -1,4 +1,0 @@
-/home/zlx/PassengerFlow/CMakeFiles/edit_cache.dir
-/home/zlx/PassengerFlow/CMakeFiles/rebuild_cache.dir
-/home/zlx/PassengerFlow/CMakeFiles/pa_flow.dir
-/home/zlx/PassengerFlow/CMakeFiles/passenger_flow_lib.dir
